@@ -1,0 +1,49 @@
+1)Ans:-
+      A leap year is exactly divided by 4 except for century years(years ending with 00).
+      The century year is a leap year only if it is perfectly divisible by 400.
+      for example:-2000,2012,2017     
+
+     Program to check leap year:-
+
+     year=int(input("Enter year to be checked:"))
+     if(year%4==0 and year%100!=0 or year%400==0):
+     print("The year is leap year")
+     else:
+     print("The year is not leap year")
+
+2) Ans:-
+   
+      length=input("Enter length :")
+      breadth=input("Enter breadth :")
+      if length==breadth:
+      print("Yes,it is square")
+      else:
+      print("No,it is rectangle")
+
+
+3)Ans:-
+    
+      first=input("Enter First Age :")    
+      second=input("Enter Second Age :")
+      third=input("Enter Third Age :")
+
+
+   if(first>=second and first>=third):
+      print("Oldest",first)
+   elif third>=first and third>=second:
+      print("Oldest is",third)
+   else:
+      print"All are equal"
+
+
+
+5)Ans:-
+     
+        quantity=input("Enter quantity :")
+     if quantity*100>1000:
+        print("Cost is",((quantity*100)-(.1*quantity*100))
+     else:
+        print("Cost is",quantity*100)
+
+
+
