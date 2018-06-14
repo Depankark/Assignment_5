@@ -1,0 +1,80 @@
+1)Ans:-
+
+       i=10;
+while(i>=1) :
+    u=input('enter the no')
+    print('Entered numbers are ' ,u)
+    i=i-1;
+
+
+2)Ans:-
+  
+     while(1):
+    print('print it infinite times')
+
+
+3)Ans:-
+   
+    list1=[]
+    a=int(input('enter the length of list'))
+    i=0
+    list2=[]
+    while(i<a):
+    l=int(input('enter the no'))
+    list1.append(l)
+    i=i+1
+    list2.append(2*l)
+
+
+    print(list2)
+
+4)Ans:-
+ 
+    list=[1,2,3,'a','b',1.1,1.2]
+    a=len(list)
+    i=0
+    list1=[]
+    list2=[]
+    list3=[]
+    while (i<a) :
+    if(type(list[i]) is int):
+        list1.append(list[i])
+
+    if(type(list[i]) is str):
+        list2.append(list[i])
+
+    if(type(list[i]) is float):
+        list3.append(list[i])
+    i=i+1
+    print(list1)
+    print(list2)
+    print(list3)
+
+
+
+5)Ans:-
+
+
+     list1=[]
+     list2=[]
+     for i in range(1,101):
+    if(i%2==0):
+        list1.append(i)
+    else:
+        list2.append(i)
+    print('the list of even no are' ,list1)
+    print('the list of odd no are',list2)
+
+
+6)Ans:-
+ 
+      import sys
+      i=1
+      while(i<5):
+      j=1;
+      while(j<=i):
+        sys.stdout.write('*')
+        j+=1
+    print("\n")
+
+    i=i+1
